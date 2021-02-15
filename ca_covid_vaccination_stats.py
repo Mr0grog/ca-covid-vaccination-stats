@@ -1,5 +1,5 @@
 from ca_counties import california_counties
-from datetime import date, datetime
+from datetime import datetime
 import dateutil.tz
 import json
 import requests
@@ -15,7 +15,7 @@ def parse_tableau_json_stream(raw):
     delimited from the JSON by a semicolon. For example:
 
         21;{"some": "json data"}16;{"more": "json"}
-    
+
     This is probably meant to be a streaming format (read up to the semicolon,
     parse the number, read that many more bytes, and emit that data), though we
     are treating it as a complete string here.
@@ -53,7 +53,8 @@ def get_tableau_data(view, subview):
             <param name="name" value="COVID-19VaccineDashboardPublic/Vaccine">
             <param name="tabs" value="no">
             <param name="toolbar" value="yes">
-            <param name="static_image" value="https://public.tableau.com/static/images/CO/COVID-19VaccineDashboardPublic/Vaccine/1.png"> 
+            <param name="static_image"
+                   value="https://public.tableau.com/static/images/CO/COVID-19VaccineDashboardPublic/Vaccine/1.png">
             <param name="animate_transition" value="yes">
             <param name="display_static_image" value="yes">
             <param name="display_spinner" value="yes">
@@ -62,13 +63,13 @@ def get_tableau_data(view, subview):
             <param name="language" value="en">
             <param name="filter" value="publish=yes">
         </object>
-    
+
     We care most about the ``<param name="name" `...>`` element. Its ``value``
     attribute contains the view and subview, separated by a forward slash. So
     in the above example, we have:
 
         <param name="name" value="COVID-19VaccineDashboardPublic/Vaccine">
-    
+
     And you'd get the corresponding data by calling this function with:
 
         get_tableau_data('COVID-19VaccineDashboardPublic', 'Vaccine')
@@ -85,15 +86,39 @@ def get_tableau_data(view, subview):
 
     # Load actual data.
     data_url = f'https://public.tableau.com/vizql/w/{view}/v/{subview}/bootstrapSession/sessions/{tableau_session}'
-    # Only a small portion of this is probably required in practice, but for
-    # now it's more expedient to just use this data from an actual browser
-    # session.
-    post_data = 'worksheetPortSize=%7B%22w%22%3A737%2C%22h%22%3A500%7D&dashboardPortSize=%7B%22w%22%3A737%2C%22h%22%3A500%7D&clientDimension=%7B%22w%22%3A737%2C%22h%22%3A550%7D&renderMapsClientSide=true&isBrowserRendering=true&browserRenderingThreshold=100&formatDataValueLocally=false&clientNum=&navType=Nav&navSrc=Boot&devicePixelRatio=2&clientRenderPixelLimit=25000000&allowAutogenWorksheetPhoneLayouts=false&sheet_id=Vaccine&showParams=%7B%22checkpoint%22%3Afalse%2C%22refresh%22%3Afalse%2C%22refreshUnmodified%22%3Afalse%2C%22unknownParams%22%3A%22%3Aembed_code_version%3D3%26publish%3Dyes%22%7D&stickySessionKey=%7B%22dataserverPermissions%22%3A%2244136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a%22%2C%22featureFlags%22%3A%22%7B%5C%22MetricsAuthoringBeta%5C%22%3Afalse%7D%22%2C%22isAuthoring%22%3Afalse%2C%22isOfflineMode%22%3Afalse%2C%22lastUpdatedAt%22%3A1613242758888%2C%22workbookId%22%3A7221037%7D&filterTileSize=200&locale=en_US&language=en&verboseMode=false&%3Asession_feature_flags=%7B%7D&keychain_version=1'
-    data_response = session.post(
-        data_url,
-        data=post_data,
-        headers={'Content-Type': 'application/x-www-form-urlencoded'}
-    )
+    # TODO: Revisit and trim down the POST data here if possible.
+    # There's a lot here, and for the sake of time, I'm just using the data
+    # from an actual browser session. There's probably plenty that's not
+    # actually required.
+    post_data = {
+        'worksheetPortSize': '{"w":737,"h":500}',
+        'dashboardPortSize': '{"w":737,"h":500}',
+        'clientDimension': '{"w":737,"h":550}',
+        'renderMapsClientSide': 'true',
+        'isBrowserRendering': 'true',
+        'browserRenderingThreshold': '100',
+        'formatDataValueLocally': 'false',
+        'navType': 'Nav',
+        'navSrc': 'Boot',
+        'devicePixelRatio': '2',
+        'clientRenderPixelLimit': '25000000',
+        'allowAutogenWorksheetPhoneLayouts': 'false',
+        'sheet_id': 'Vaccine',
+        'showParams': '{"checkpoint":false,"refresh":false,"refreshUnmodified":false,"unknownParams":":embed_code_version=3&publish=yes"}',
+        'stickySessionKey': ('{"dataserverPermissions":"44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",'
+                             '"featureFlags":"{\\"MetricsAuthoringBeta\\":false}",'
+                             '"isAuthoring":false,'
+                             '"isOfflineMode":false,'
+                             '"lastUpdatedAt":1613242758888,'
+                             '"workbookId":7221037}'),
+        'filterTileSize': '200',
+        'locale': 'en_US',
+        'language': 'en',
+        'verboseMode': 'false',
+        ':session_feature_flags': '{}',
+        'keychain_version': '1',
+    }
+    data_response = session.post(data_url, data=post_data)
 
     # NOTE: it *might* be more correct to use data_response.content, but then
     # we need to do some more fancy footwork with character decoding. In the
@@ -145,7 +170,7 @@ def parse_tableau_chart(chart_definition, values_by_type):
         'dataType': column.get('dataType'),
         'references': tableau_column_data_value_references(column_data[index])
     } for index, column in enumerate(definitions)]
-    
+
     # Pivot from columns to rows and dereference each value.
     result = []
     for row_index in range(len(column_model[0]['references'])):
@@ -158,7 +183,7 @@ def parse_tableau_chart(chart_definition, values_by_type):
                 row[column['name']] = reference
 
         result.append(row)
-    
+
     return result
 
 
@@ -195,10 +220,26 @@ def get_stats_from_tableau():
                 values_by_type,
                 'AGG(Total P+M Doses Adminstered)'
             ),
-            'delivered': parse_tableau_value_chart(charts['Total Doses Delivered'], values_by_type, 'SUM(Doses Delivered)'),
-            'shipped': parse_tableau_value_chart(charts['Total Doses Shipped'], values_by_type, 'SUM(Doses Shipped)'),
-            'cdc_ltcf_delivered': parse_tableau_value_chart(charts['Total Doses Delivered CDC'], values_by_type, 'SUM(Doses Delivered)'),
-            'cdc_ltcf_shipped': parse_tableau_value_chart(charts['Total Doses Shipped CDC'], values_by_type, 'SUM(Doses Shipped)'),
+            'delivered': parse_tableau_value_chart(
+                charts['Total Doses Delivered'],
+                values_by_type,
+                'SUM(Doses Delivered)'
+            ),
+            'shipped': parse_tableau_value_chart(
+                charts['Total Doses Shipped'],
+                values_by_type,
+                'SUM(Doses Shipped)'
+            ),
+            'cdc_ltcf_delivered': parse_tableau_value_chart(
+                charts['Total Doses Delivered CDC'],
+                values_by_type,
+                'SUM(Doses Delivered)'
+            ),
+            'cdc_ltcf_shipped': parse_tableau_value_chart(
+                charts['Total Doses Shipped CDC'],
+                values_by_type,
+                'SUM(Doses Shipped)'
+            ),
         },
         'counties': shots_by_county
     }

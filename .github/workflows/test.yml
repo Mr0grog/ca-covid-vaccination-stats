@@ -1,0 +1,48 @@
+name: Test
+
+on:
+  push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Main repo
+      uses: actions/checkout@v2
+      with:
+        path: scraper
+
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+
+    - name: Cache Python Dependencies
+      uses: actions/cache@v2
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('scraper/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    # - The commit that was checked out will be available as $SCRAPER_COMMIT.
+    - name: Install Data Scraper & Dependencies
+      run: |
+        cd ${GITHUB_WORKSPACE}/scraper
+        python -m pip install --upgrade pip
+        python -m pip install wheel
+        pip install -r requirements.txt;
+
+        # Keep track of the version used so we can use it in commit messages
+        echo "SCRAPER_COMMIT='$(git rev-parse HEAD)'" >> $GITHUB_ENV
+    
+    - name: Lint Code
+      run: |
+        cd ${GITHUB_WORKSPACE}/scraper
+        python -m flake8
+    
+    - name: Run Tests
+      run: |
+        cd ${GITHUB_WORKSPACE}/scraper
+        python -m pytest
