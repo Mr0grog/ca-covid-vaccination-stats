@@ -1,1 +1,3 @@
-requests
+# Runtime requirements
+requests ~=2.25.1
+python-dateutil ~=2.8.1

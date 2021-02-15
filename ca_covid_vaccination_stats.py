@@ -1,6 +1,11 @@
+from ca_counties import california_counties
+from datetime import date, datetime
+import dateutil.tz
 import json
 import requests
-from ca_counties import california_counties
+
+
+PACIFIC_TIME = dateutil.tz.gettz('America/Los_Angeles')
 
 
 def parse_tableau_json_stream(raw):
@@ -178,13 +183,11 @@ def get_stats_from_tableau():
                   ['presModelHolder']
                   ['genPresModelMapPresModel']
                   ['presModelMap'])
-    # Bar chart of vaccines administered.
-    county_shots_chart = charts['County Admin Bar']
 
     county_shots = parse_tableau_chart(charts['County Admin Bar'], values_by_type)
-    shots_by_county = {row['County']: row['AGG(Total Doses Administered)']
+    shots_by_county = {county_key(row['County']): row['AGG(Total Doses Administered)']
                        for row in county_shots}
-    
+
     all_tableau_data = {
         'state': {
             'administered': parse_tableau_value_chart(
@@ -246,14 +249,37 @@ def cli():
     tableau = get_stats_from_tableau()
     groups = get_groupings()
 
-    groups['state'].update(tableau['state'])
-    for county, total in tableau['counties'].items():
-        groups['counties'][county_key(county)]['total_administered'] = total
+    state = groups['state'].copy()
+    state.update(tableau['state'])
 
-    print(json.dumps(groups, indent=2))
+    counties = {}
+    for name in california_counties:
+        county = groups['counties'][name].copy()
+        county['total_administered'] = tableau['counties'][name]
+        counties[name] = county
 
+    # TODO: there should probably be some work done to verify that the last
+    # updated dates for all the various data sources match and use those dates
+    # instead of the current date.
+    # One issue here is that it's not clear whether the grouping data files are
+    # updated at the same/similar time as the Tableau dashboard. It's also
+    # unclear whether the date on the Tableau dashbaord is correct. For
+    # example, on 2/14/2021 at 18:53 Pacific, the dashboard reads:
+    #
+    #     "Data: 2/14/2021 11:59pm | Posted: 2/15/2021"
+    #
+    # Both these dates are in the future. It could be that this is UTC, or it
+    # could just be innacurate. Another questionable point here is that these
+    # dates appear in the data, but not the data *time*, which makes it unclear
+    # whether "11:59pm" is simply hard-coded.
+    result = {
+        'date': datetime.now(tz=PACIFIC_TIME).date().isoformat(),
+        'state': state,
+        'counties': counties
+    }
+
+    print(json.dumps(result))
 
 
 if __name__ == '__main__':
     cli()
-
