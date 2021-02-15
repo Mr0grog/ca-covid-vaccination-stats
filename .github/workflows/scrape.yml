@@ -1,0 +1,97 @@
+name: Scrape and Commit
+
+on:
+  push:
+    branches-ignore:
+      - gh-pages
+  schedule:
+    # Run at 11:30 PM Pacific every day.
+    - cron: 30 7 * * *
+
+jobs:
+  scrape:
+    name: Scrape Data
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Main repo
+      uses: actions/checkout@v2
+      with:
+        path: scraper
+
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+
+    - name: Cache Python Dependencies
+      uses: actions/cache@v2
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('scraper/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    # - The commit that was checked out will be available as $SCRAPER_COMMIT.
+    - name: Install Data Scraper & Dependencies
+      run: |
+        cd ${GITHUB_WORKSPACE}/scraper
+        python -m pip install --upgrade pip
+        python -m pip install wheel
+        pip install -r requirements.txt;
+
+        # Keep track of the version used so we can use it in commit messages
+        echo "SCRAPER_COMMIT='$(git rev-parse HEAD)'" >> $GITHUB_ENV
+
+    - name: Scrape Data
+      run: |
+        echo "SCRAPER_TIME='$(date)'" >> $GITHUB_ENV
+        cd ${GITHUB_WORKSPACE}/scraper
+
+        OUT_PATH="${GITHUB_WORKSPACE}/current.v1.json"
+
+        python ca_covid_vaccination_stats.py > "${OUT_PATH}"
+    
+    - name: Save Build Target
+      uses: actions/upload-artifact@v2
+      with:
+        name: scraped_data
+        path: current.v1.json
+  
+  save_results:
+    name: Save results to gh-pages
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Load Scraped Data
+        uses: actions/download-artifact@v2
+        with:
+          name: scraped_data
+      
+      - name: Checkout gh-pages
+        uses: actions/checkout@v2
+        with:
+          path: gh-pages
+          ref: gh-pages
+      
+      - name: Commit and Push if Changed
+        run: |
+          # Copy data and sort so data can be compared to previous output.
+          cd gh-pages
+          cat ../current.v1.json | jq --sort-keys > current.v1.json
+
+          # If changed, commit updates.
+          CHANGED_FILES=$(git status --short)
+          if [[ -n "$CHANGED_FILES" ]]; then
+            # Add to the timeseries.
+            cat ../current.v1.json | jq --compact-output >> timeseries.v1.json
+
+            # Configure git and commit.
+            git config user.name 'GitHub Actions Bot'
+            git config user.email 'github.actions.bot@github.com'
+
+            echo "Committing and pushing updates"
+            git add .
+            git commit -m "Update scraped data. Created with commit ${{env.SCRAPER_COMMIT}}"
+            git push
+          fi
