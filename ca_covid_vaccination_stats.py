@@ -79,10 +79,26 @@ def get_tableau_data(view, subview):
     # request, that actually gets the data.
     session = requests.Session()
     dashboard_response = session.get(
-        f'https://public.tableau.com/views/{view}/{subview}',
-        params={':embed': 'y', ':showVizHome': 'no'}
+        f'https://public.tableau.com/interactive/views/{view}/{subview}',
+        params={
+            ':embed': 'y',
+            ':showVizHome': 'no',
+            ':host_url': 'https://public.tableau.com/',
+            ':embed_code_version': 3,
+            # ':tabs': 'no',
+            # ':toolbar': 'yes',
+            # ':animate_transition': 'yes',
+            # ':display_static_image': 'no',
+            # ':display_spinner': 'no',
+            # ':display_overlay': 'yes',
+            # ':display_count': 'yes',
+            # ':language': 'en',
+            # 'publish': 'yes',
+            # ':loadOrderID': 0,
+        },
+        # headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0'}
     )
-    tableau_session = dashboard_response.headers.get('X-Session-Id')
+    tableau_session = dashboard_response.headers.get('x-session-id')
 
     # Load actual data.
     data_url = f'https://public.tableau.com/vizql/w/{view}/v/{subview}/bootstrapSession/sessions/{tableau_session}'
@@ -210,7 +226,7 @@ def get_stats_from_tableau():
                   ['presModelMap'])
 
     county_shots = parse_tableau_chart(charts['County Admin Bar'], values_by_type)
-    shots_by_county = {county_key(row['County']): row['AGG(Total Doses Administered)']
+    shots_by_county = {county_key(row['County']): row['SUM(Dose Administered)']
                        for row in county_shots}
 
     all_tableau_data = {
@@ -218,7 +234,7 @@ def get_stats_from_tableau():
             'administered': parse_tableau_value_chart(
                 charts['Total Doses Admin'],
                 values_by_type,
-                'AGG(Total P+M Doses Adminstered)'
+                'SUM(Dose Administered)'
             ),
             'delivered': parse_tableau_value_chart(
                 charts['Total Doses Delivered'],
