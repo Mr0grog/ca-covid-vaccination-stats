@@ -60,6 +60,7 @@ jobs:
   
   save_results:
     name: Save results to gh-pages
+    needs: scrape
     if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
     steps:
