@@ -4,19 +4,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.003401
+          "value": 0.003436
         },
         {
           "group": "18-49",
-          "value": 0.392234
+          "value": 0.394849
         },
         {
           "group": "50-64",
-          "value": 0.207151
+          "value": 0.209539
         },
         {
           "group": "65+",
-          "value": 0.397213
+          "value": 0.392176
         },
         {
           "group": "Unknown",
@@ -26,54 +26,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.578056
+          "value": 0.576973
         },
         {
           "group": "Male",
-          "value": 0.418978
+          "value": 0.420028
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.002967
+          "value": 0.003
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.002123
+          "value": 0.002121
         },
         {
           "group": "Asian American",
-          "value": 0.212348
+          "value": 0.211725
         },
         {
           "group": "Black",
-          "value": 0.057504
+          "value": 0.057331
         },
         {
           "group": "Latino",
-          "value": 0.10463
+          "value": 0.10459
         },
         {
           "group": "Multi-race",
-          "value": 0.111497
+          "value": 0.110328
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.005509
+          "value": 0.005476
         },
         {
           "group": "White",
-          "value": 0.26673
+          "value": 0.264464
         },
         {
           "group": "Other",
-          "value": 0.088325
+          "value": 0.088152
         },
         {
           "group": "Unknown",
-          "value": 0.151334
+          "value": 0.155813
         }
       ],
       "region": "alameda",
@@ -83,19 +83,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001597
+          "value": 0.001595
         },
         {
           "group": "18-49",
-          "value": 0.327476
+          "value": 0.328549
         },
         {
           "group": "50-64",
-          "value": 0.335463
+          "value": 0.334928
         },
         {
           "group": "65+",
-          "value": 0.335463
+          "value": 0.334928
         },
         {
           "group": "Unknown",
@@ -105,26 +105,26 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.471246
+          "value": 0.470494
         },
         {
           "group": "Male",
-          "value": 0.523962
+          "value": 0.524721
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.004792
+          "value": 0.004785
         }
       ],
       "latest_update": "2021-03-18",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.019169
+          "value": 0.019139
         },
         {
           "group": "Asian American",
-          "value": 0.00639
+          "value": 0.00638
         },
         {
           "group": "Black",
@@ -132,11 +132,11 @@
         },
         {
           "group": "Latino",
-          "value": 0.003195
+          "value": 0.00319
         },
         {
           "group": "Multi-race",
-          "value": 0.003195
+          "value": 0.00319
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
@@ -144,15 +144,15 @@
         },
         {
           "group": "White",
-          "value": 0.175719
+          "value": 0.175439
         },
         {
           "group": "Other",
-          "value": 0.007987
+          "value": 0.009569
         },
         {
           "group": "Unknown",
-          "value": 0.784345
+          "value": 0.783094
         }
       ],
       "region": "alpine",
@@ -162,19 +162,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.000445
+          "value": 0.000524
         },
         {
           "group": "18-49",
-          "value": 0.169127
+          "value": 0.170192
         },
         {
           "group": "50-64",
-          "value": 0.187978
+          "value": 0.191608
         },
         {
           "group": "65+",
-          "value": 0.642451
+          "value": 0.637675
         },
         {
           "group": "Unknown",
@@ -184,54 +184,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.561711
+          "value": 0.561626
         },
         {
           "group": "Male",
-          "value": 0.437044
+          "value": 0.437063
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.001245
+          "value": 0.001311
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.008892
+          "value": 0.008741
         },
         {
           "group": "Asian American",
-          "value": 0.014672
+          "value": 0.014423
         },
         {
           "group": "Black",
-          "value": 0.00329
+          "value": 0.003322
         },
         {
           "group": "Latino",
-          "value": 0.070959
+          "value": 0.070542
         },
         {
           "group": "Multi-race",
-          "value": 0.045083
+          "value": 0.04458
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.002579
+          "value": 0.002622
         },
         {
           "group": "White",
-          "value": 0.67135
+          "value": 0.668706
         },
         {
           "group": "Other",
-          "value": 0.091321
+          "value": 0.091259
         },
         {
           "group": "Unknown",
-          "value": 0.091855
+          "value": 0.095804
         }
       ],
       "region": "amador",
@@ -241,19 +241,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001483
+          "value": 0.001511
         },
         {
           "group": "18-49",
-          "value": 0.308632
+          "value": 0.30911
         },
         {
           "group": "50-64",
-          "value": 0.199889
+          "value": 0.200918
         },
         {
           "group": "65+",
-          "value": 0.489996
+          "value": 0.488461
         },
         {
           "group": "Unknown",
@@ -263,54 +263,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.5761
+          "value": 0.575516
         },
         {
           "group": "Male",
-          "value": 0.423267
+          "value": 0.423856
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000633
+          "value": 0.000628
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.011645
+          "value": 0.011598
         },
         {
           "group": "Asian American",
-          "value": 0.020938
+          "value": 0.020979
         },
         {
           "group": "Black",
-          "value": 0.006841
+          "value": 0.006829
         },
         {
           "group": "Latino",
-          "value": 0.073313
+          "value": 0.073436
         },
         {
           "group": "Multi-race",
-          "value": 0.170628
+          "value": 0.169794
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.000969
+          "value": 0.000962
         },
         {
           "group": "White",
-          "value": 0.570011
+          "value": 0.569786
         },
         {
           "group": "Other",
-          "value": 0.079007
+          "value": 0.079225
         },
         {
           "group": "Unknown",
-          "value": 0.06665
+          "value": 0.067391
         }
       ],
       "region": "butte",
@@ -320,19 +320,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.002195
+          "value": 0.002246
         },
         {
           "group": "18-49",
-          "value": 0.143484
+          "value": 0.146622
         },
         {
           "group": "50-64",
-          "value": 0.193976
+          "value": 0.197944
         },
         {
           "group": "65+",
-          "value": 0.660344
+          "value": 0.653188
         },
         {
           "group": "Unknown",
@@ -342,54 +342,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.551633
+          "value": 0.550631
         },
         {
           "group": "Male",
-          "value": 0.440639
+          "value": 0.44168
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.007727
+          "value": 0.00769
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.003952
+          "value": 0.004147
         },
         {
           "group": "Asian American",
-          "value": 0.009571
+          "value": 0.010109
         },
         {
           "group": "Black",
-          "value": 0.003776
+          "value": 0.003802
         },
         {
           "group": "Latino",
-          "value": 0.044433
+          "value": 0.045015
         },
         {
           "group": "Multi-race",
-          "value": 0.016245
+          "value": 0.016243
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001493
+          "value": 0.001469
         },
         {
           "group": "White",
-          "value": 0.513962
+          "value": 0.515379
         },
         {
           "group": "Other",
-          "value": 0.08746
+          "value": 0.08761
         },
         {
           "group": "Unknown",
-          "value": 0.319108
+          "value": 0.316226
         }
       ],
       "region": "calaveras",
@@ -399,19 +399,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.000995
+          "value": 0.000954
         },
         {
           "group": "18-49",
-          "value": 0.329023
+          "value": 0.338498
         },
         {
           "group": "50-64",
-          "value": 0.221338
+          "value": 0.224076
         },
         {
           "group": "65+",
-          "value": 0.448645
+          "value": 0.436472
         },
         {
           "group": "Unknown",
@@ -421,54 +421,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.530962
+          "value": 0.523242
         },
         {
           "group": "Male",
-          "value": 0.447899
+          "value": 0.456496
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.021139
+          "value": 0.020262
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.011191
+          "value": 0.010965
         },
         {
           "group": "Asian American",
-          "value": 0.006963
+          "value": 0.006913
         },
         {
           "group": "Black",
-          "value": 0.004725
+          "value": 0.004529
         },
         {
           "group": "Latino",
-          "value": 0.262373
+          "value": 0.27056
         },
         {
           "group": "Multi-race",
-          "value": 0.059935
+          "value": 0.057688
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.000995
+          "value": 0.000954
         },
         {
           "group": "White",
-          "value": 0.34096
+          "value": 0.334923
         },
         {
           "group": "Other",
-          "value": 0.053967
+          "value": 0.053635
         },
         {
           "group": "Unknown",
-          "value": 0.258891
+          "value": 0.259833
         }
       ],
       "region": "colusa",
@@ -715,19 +715,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.002731
+          "value": 0.002913
         },
         {
           "group": "18-49",
-          "value": 0.381713
+          "value": 0.383808
         },
         {
           "group": "50-64",
-          "value": 0.23703
+          "value": 0.239021
         },
         {
           "group": "65+",
-          "value": 0.378526
+          "value": 0.374258
         },
         {
           "group": "Unknown",
@@ -737,54 +737,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.564008
+          "value": 0.563142
         },
         {
           "group": "Male",
-          "value": 0.435275
+          "value": 0.436118
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000717
+          "value": 0.00074
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.004826
+          "value": 0.004832
         },
         {
           "group": "Asian American",
-          "value": 0.070952
+          "value": 0.070641
         },
         {
           "group": "Black",
-          "value": 0.021057
+          "value": 0.021031
         },
         {
           "group": "Latino",
-          "value": 0.315482
+          "value": 0.314966
         },
         {
           "group": "Multi-race",
-          "value": 0.102906
+          "value": 0.1013
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001615
+          "value": 0.001623
         },
         {
           "group": "White",
-          "value": 0.292568
+          "value": 0.2922
         },
         {
           "group": "Other",
-          "value": 0.077127
+          "value": 0.076893
         },
         {
           "group": "Unknown",
-          "value": 0.113466
+          "value": 0.116514
         }
       ],
       "region": "fresno",
@@ -794,19 +794,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.000953
+          "value": 0.000935
         },
         {
           "group": "18-49",
-          "value": 0.259344
+          "value": 0.261918
         },
         {
           "group": "50-64",
-          "value": 0.210908
+          "value": 0.212937
         },
         {
           "group": "65+",
-          "value": 0.528795
+          "value": 0.52421
         },
         {
           "group": "Unknown",
@@ -816,54 +816,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.574371
+          "value": 0.573378
         },
         {
           "group": "Male",
-          "value": 0.424676
+          "value": 0.4255
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000953
+          "value": 0.001122
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.023646
+          "value": 0.023182
         },
         {
           "group": "Asian American",
-          "value": 0.011251
+          "value": 0.01103
         },
         {
           "group": "Black",
-          "value": 0.001716
+          "value": 0.00187
         },
         {
           "group": "Latino",
-          "value": 0.200038
+          "value": 0.201533
         },
         {
           "group": "Multi-race",
-          "value": 0.09058
+          "value": 0.09011
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.000763
+          "value": 0.000748
         },
         {
           "group": "White",
-          "value": 0.466247
+          "value": 0.464199
         },
         {
           "group": "Other",
-          "value": 0.102403
+          "value": 0.101701
         },
         {
           "group": "Unknown",
-          "value": 0.103356
+          "value": 0.105627
         }
       ],
       "region": "glenn",
@@ -873,19 +873,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.0009
+          "value": 0.000868
         },
         {
           "group": "18-49",
-          "value": 0.317432
+          "value": 0.317149
         },
         {
           "group": "50-64",
-          "value": 0.187885
+          "value": 0.186787
         },
         {
           "group": "65+",
-          "value": 0.493783
+          "value": 0.495196
         },
         {
           "group": "Unknown",
@@ -895,54 +895,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.589992
+          "value": 0.587706
         },
         {
           "group": "Male",
-          "value": 0.408841
+          "value": 0.411073
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.001167
+          "value": 0.001221
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.035004
+          "value": 0.034221
         },
         {
           "group": "Asian American",
-          "value": 0.012868
+          "value": 0.012853
         },
         {
           "group": "Black",
-          "value": 0.006334
+          "value": 0.00633
         },
         {
           "group": "Latino",
-          "value": 0.057406
+          "value": 0.058256
         },
         {
           "group": "Multi-race",
-          "value": 0.148415
+          "value": 0.145079
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.0019
+          "value": 0.001928
         },
         {
           "group": "White",
-          "value": 0.643264
+          "value": 0.642974
         },
         {
           "group": "Other",
-          "value": 0.030336
+          "value": 0.030783
         },
         {
           "group": "Unknown",
-          "value": 0.064473
+          "value": 0.067575
         }
       ],
       "region": "humboldt",
@@ -952,19 +952,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.000923
+          "value": 0.001125
         },
         {
           "group": "18-49",
-          "value": 0.351511
+          "value": 0.367819
         },
         {
           "group": "50-64",
-          "value": 0.194878
+          "value": 0.202505
         },
         {
           "group": "65+",
-          "value": 0.452689
+          "value": 0.42855
         },
         {
           "group": "Unknown",
@@ -974,54 +974,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.554725
+          "value": 0.551404
         },
         {
           "group": "Male",
-          "value": 0.444893
+          "value": 0.448152
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000382
+          "value": 0.000444
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.000891
+          "value": 0.000918
         },
         {
           "group": "Asian American",
-          "value": 0.007668
+          "value": 0.007284
         },
         {
           "group": "Black",
-          "value": 0.004518
+          "value": 0.004501
         },
         {
           "group": "Latino",
-          "value": 0.696055
+          "value": 0.689121
         },
         {
           "group": "Multi-race",
-          "value": 0.026058
+          "value": 0.024577
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.000636
+          "value": 0.000592
         },
         {
           "group": "White",
-          "value": 0.101845
+          "value": 0.098129
         },
         {
           "group": "Other",
-          "value": 0.058129
+          "value": 0.059132
         },
         {
           "group": "Unknown",
-          "value": 0.1042
+          "value": 0.115747
         }
       ],
       "region": "imperial",
@@ -1031,19 +1031,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001016
+          "value": 0.001197
         },
         {
           "group": "18-49",
-          "value": 0.249187
+          "value": 0.255238
         },
         {
           "group": "50-64",
-          "value": 0.180488
+          "value": 0.183596
         },
         {
           "group": "65+",
-          "value": 0.569309
+          "value": 0.559968
         },
         {
           "group": "Unknown",
@@ -1053,54 +1053,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.538211
+          "value": 0.536021
         },
         {
           "group": "Male",
-          "value": 0.460976
+          "value": 0.463181
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000813
+          "value": 0.000798
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.011179
+          "value": 0.011175
         },
         {
           "group": "Asian American",
-          "value": 0.00813
+          "value": 0.008382
         },
         {
           "group": "Black",
-          "value": 0.001829
+          "value": 0.001796
         },
         {
           "group": "Latino",
-          "value": 0.087195
+          "value": 0.087607
         },
         {
           "group": "Multi-race",
-          "value": 0.22561
+          "value": 0.22291
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.00122
+          "value": 0.001197
         },
         {
           "group": "White",
-          "value": 0.542276
+          "value": 0.541608
         },
         {
           "group": "Other",
-          "value": 0.04939
+          "value": 0.050289
         },
         {
           "group": "Unknown",
-          "value": 0.073171
+          "value": 0.075035
         }
       ],
       "region": "inyo",
@@ -1110,19 +1110,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.002402
+          "value": 0.002625
         },
         {
           "group": "18-49",
-          "value": 0.363016
+          "value": 0.365594
         },
         {
           "group": "50-64",
-          "value": 0.227498
+          "value": 0.230525
         },
         {
           "group": "65+",
-          "value": 0.407084
+          "value": 0.401257
         },
         {
           "group": "Unknown",
@@ -1132,54 +1132,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.558877
+          "value": 0.558253
         },
         {
           "group": "Male",
-          "value": 0.43468
+          "value": 0.435443
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.006442
+          "value": 0.006304
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.003485
+          "value": 0.003535
         },
         {
           "group": "Asian American",
-          "value": 0.041077
+          "value": 0.040919
         },
         {
           "group": "Black",
-          "value": 0.023347
+          "value": 0.02343
         },
         {
           "group": "Latino",
-          "value": 0.301902
+          "value": 0.302379
         },
         {
           "group": "Multi-race",
-          "value": 0.125192
+          "value": 0.123054
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.002463
+          "value": 0.00246
         },
         {
           "group": "White",
-          "value": 0.299554
+          "value": 0.298659
         },
         {
           "group": "Other",
-          "value": 0.109986
+          "value": 0.110564
         },
         {
           "group": "Unknown",
-          "value": 0.092994
+          "value": 0.095001
         }
       ],
       "region": "kern",
@@ -1189,19 +1189,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001845
+          "value": 0.002281
         },
         {
           "group": "18-49",
-          "value": 0.389114
+          "value": 0.39273
         },
         {
           "group": "50-64",
-          "value": 0.259802
+          "value": 0.262795
         },
         {
           "group": "65+",
-          "value": 0.349239
+          "value": 0.342194
         },
         {
           "group": "Unknown",
@@ -1211,54 +1211,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.549075
+          "value": 0.549197
         },
         {
           "group": "Male",
-          "value": 0.44621
+          "value": 0.446241
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.004715
+          "value": 0.004563
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.008252
+          "value": 0.008084
         },
         {
           "group": "Asian American",
-          "value": 0.027164
+          "value": 0.027425
         },
         {
           "group": "Black",
-          "value": 0.019476
+          "value": 0.019589
         },
         {
           "group": "Latino",
-          "value": 0.412588
+          "value": 0.412765
         },
         {
           "group": "Multi-race",
-          "value": 0.075445
+          "value": 0.073795
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001538
+          "value": 0.001587
         },
         {
           "group": "White",
-          "value": 0.275486
+          "value": 0.275144
         },
         {
           "group": "Other",
-          "value": 0.057865
+          "value": 0.058024
         },
         {
           "group": "Unknown",
-          "value": 0.122187
+          "value": 0.123587
         }
       ],
       "region": "kings",
@@ -1268,19 +1268,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001393
+          "value": 0.001633
         },
         {
           "group": "18-49",
-          "value": 0.225553
+          "value": 0.234895
         },
         {
           "group": "50-64",
-          "value": 0.198651
+          "value": 0.216409
         },
         {
           "group": "65+",
-          "value": 0.574403
+          "value": 0.547064
         },
         {
           "group": "Unknown",
@@ -1290,54 +1290,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.551312
+          "value": 0.54739
         },
         {
           "group": "Male",
-          "value": 0.448101
+          "value": 0.452022
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000586
+          "value": 0.000588
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.019059
+          "value": 0.017506
         },
         {
           "group": "Asian American",
-          "value": 0.010116
+          "value": 0.010255
         },
         {
           "group": "Black",
-          "value": 0.010776
+          "value": 0.01117
         },
         {
           "group": "Latino",
-          "value": 0.155989
+          "value": 0.160951
         },
         {
           "group": "Multi-race",
-          "value": 0.165518
+          "value": 0.154746
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001539
+          "value": 0.001437
         },
         {
           "group": "White",
-          "value": 0.565533
+          "value": 0.559475
         },
         {
           "group": "Other",
-          "value": 0.029395
+          "value": 0.031746
         },
         {
           "group": "Unknown",
-          "value": 0.042076
+          "value": 0.052714
         }
       ],
       "region": "lake",
@@ -1347,19 +1347,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.000249
+          "value": 0.000243
         },
         {
           "group": "18-49",
-          "value": 0.205919
+          "value": 0.205732
         },
         {
           "group": "50-64",
-          "value": 0.214623
+          "value": 0.217634
         },
         {
           "group": "65+",
-          "value": 0.579209
+          "value": 0.576391
         },
         {
           "group": "Unknown",
@@ -1369,54 +1369,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.526983
+          "value": 0.527569
         },
         {
           "group": "Male",
-          "value": 0.471524
+          "value": 0.470974
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.001492
+          "value": 0.001457
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.010445
+          "value": 0.010687
         },
         {
           "group": "Asian American",
-          "value": 0.012932
+          "value": 0.012631
         },
         {
           "group": "Black",
-          "value": 0.006963
+          "value": 0.007044
         },
         {
           "group": "Latino",
-          "value": 0.061925
+          "value": 0.061453
         },
         {
           "group": "Multi-race",
-          "value": 0.081074
+          "value": 0.07967
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.002487
+          "value": 0.002915
         },
         {
           "group": "White",
-          "value": 0.611042
+          "value": 0.609667
         },
         {
           "group": "Other",
-          "value": 0.037304
+          "value": 0.03692
         },
         {
           "group": "Unknown",
-          "value": 0.175827
+          "value": 0.179014
         }
       ],
       "region": "lassen",
@@ -1505,19 +1505,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001614
+          "value": 0.00185
         },
         {
           "group": "18-49",
-          "value": 0.311292
+          "value": 0.315485
         },
         {
           "group": "50-64",
-          "value": 0.231385
+          "value": 0.235787
         },
         {
           "group": "65+",
-          "value": 0.45571
+          "value": 0.446878
         },
         {
           "group": "Unknown",
@@ -1527,54 +1527,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.553837
+          "value": 0.553154
         },
         {
           "group": "Male",
-          "value": 0.445423
+          "value": 0.446099
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.00074
+          "value": 0.000746
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.009883
+          "value": 0.009833
         },
         {
           "group": "Asian American",
-          "value": 0.018187
+          "value": 0.018107
         },
         {
           "group": "Black",
-          "value": 0.014489
+          "value": 0.014343
         },
         {
           "group": "Latino",
-          "value": 0.328268
+          "value": 0.328758
         },
         {
           "group": "Multi-race",
-          "value": 0.072949
+          "value": 0.071456
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001614
+          "value": 0.001558
         },
         {
           "group": "White",
-          "value": 0.357078
+          "value": 0.353063
         },
         {
           "group": "Other",
-          "value": 0.077218
+          "value": 0.077557
         },
         {
           "group": "Unknown",
-          "value": 0.120315
+          "value": 0.125325
         }
       ],
       "region": "madera",
@@ -1584,19 +1584,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.00667
+          "value": 0.007044
         },
         {
           "group": "18-49",
-          "value": 0.26409
+          "value": 0.271067
         },
         {
           "group": "50-64",
-          "value": 0.221684
+          "value": 0.226707
         },
         {
           "group": "65+",
-          "value": 0.507556
+          "value": 0.495181
         },
         {
           "group": "Unknown",
@@ -1606,54 +1606,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.571777
+          "value": 0.570135
         },
         {
           "group": "Male",
-          "value": 0.427503
+          "value": 0.429149
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.00072
+          "value": 0.000716
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.000988
+          "value": 0.000996
         },
         {
           "group": "Asian American",
-          "value": 0.040461
+          "value": 0.040262
         },
         {
           "group": "Black",
-          "value": 0.010172
+          "value": 0.010032
         },
         {
           "group": "Latino",
-          "value": 0.078549
+          "value": 0.081541
         },
         {
           "group": "Multi-race",
-          "value": 0.125047
+          "value": 0.122592
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001762
+          "value": 0.001743
         },
         {
           "group": "White",
-          "value": 0.52761
+          "value": 0.521967
         },
         {
           "group": "Other",
-          "value": 0.064618
+          "value": 0.064196
         },
         {
           "group": "Unknown",
-          "value": 0.150793
+          "value": 0.156671
         }
       ],
       "region": "marin",
@@ -1663,76 +1663,76 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001158
+          "value": 0.001033
         },
         {
           "group": "18-49",
-          "value": 0.18095
+          "value": 0.178507
         },
         {
           "group": "50-64",
-          "value": 0.182687
+          "value": 0.191165
         },
         {
           "group": "65+",
-          "value": 0.634916
+          "value": 0.629036
         },
         {
           "group": "Unknown",
-          "value": 0.00029
+          "value": 0.000258
         }
       ],
       "gender": [
         {
           "group": "Female",
-          "value": 0.544007
+          "value": 0.536554
         },
         {
           "group": "Male",
-          "value": 0.452519
+          "value": 0.45983
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.003474
+          "value": 0.003617
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.019108
+          "value": 0.019375
         },
         {
           "group": "Asian American",
-          "value": 0.008396
+          "value": 0.0093
         },
         {
           "group": "Black",
-          "value": 0.002895
+          "value": 0.0031
         },
         {
           "group": "Latino",
-          "value": 0.074117
+          "value": 0.072074
         },
         {
           "group": "Multi-race",
-          "value": 0.027504
+          "value": 0.025058
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001448
+          "value": 0.001292
         },
         {
           "group": "White",
-          "value": 0.607991
+          "value": 0.62077
         },
         {
           "group": "Other",
-          "value": 0.055877
+          "value": 0.053475
         },
         {
           "group": "Unknown",
-          "value": 0.202664
+          "value": 0.195557
         }
       ],
       "region": "mariposa",
@@ -1742,19 +1742,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.005466
+          "value": 0.005375
         },
         {
           "group": "18-49",
-          "value": 0.326962
+          "value": 0.328767
         },
         {
           "group": "50-64",
-          "value": 0.234449
+          "value": 0.23493
         },
         {
           "group": "65+",
-          "value": 0.433122
+          "value": 0.430928
         },
         {
           "group": "Unknown",
@@ -1764,54 +1764,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.544598
+          "value": 0.543727
         },
         {
           "group": "Male",
-          "value": 0.447372
+          "value": 0.448173
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.00803
+          "value": 0.0081
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.008218
+          "value": 0.008212
         },
         {
           "group": "Asian American",
-          "value": 0.012931
+          "value": 0.012803
         },
         {
           "group": "Black",
-          "value": 0.003054
+          "value": 0.003061
         },
         {
           "group": "Latino",
-          "value": 0.164216
+          "value": 0.166138
         },
         {
           "group": "Multi-race",
-          "value": 0.140881
+          "value": 0.14001
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001659
+          "value": 0.001642
         },
         {
           "group": "White",
-          "value": 0.504071
+          "value": 0.502333
         },
         {
           "group": "Other",
-          "value": 0.053306
+          "value": 0.053712
         },
         {
           "group": "Unknown",
-          "value": 0.111664
+          "value": 0.11209
         }
       ],
       "region": "mendocino",
@@ -1821,19 +1821,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.002613
+          "value": 0.002658
         },
         {
           "group": "18-49",
-          "value": 0.346115
+          "value": 0.353959
         },
         {
           "group": "50-64",
-          "value": 0.237211
+          "value": 0.239758
         },
         {
           "group": "65+",
-          "value": 0.414062
+          "value": 0.403625
         },
         {
           "group": "Unknown",
@@ -1843,54 +1843,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.558352
+          "value": 0.556803
         },
         {
           "group": "Male",
-          "value": 0.437499
+          "value": 0.43881
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.004149
+          "value": 0.004387
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-20",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.00317
+          "value": 0.003234
         },
         {
           "group": "Asian American",
-          "value": 0.055787
+          "value": 0.055316
         },
         {
           "group": "Black",
-          "value": 0.015618
+          "value": 0.015799
         },
         {
           "group": "Latino",
-          "value": 0.323581
+          "value": 0.323625
         },
         {
           "group": "Multi-race",
-          "value": 0.005533
+          "value": 0.005372
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.002689
+          "value": 0.002639
         },
         {
           "group": "White",
-          "value": 0.267678
+          "value": 0.265149
         },
         {
           "group": "Other",
-          "value": 0.084199
+          "value": 0.083996
         },
         {
           "group": "Unknown",
-          "value": 0.241744
+          "value": 0.24487
         }
       ],
       "region": "merced",
@@ -1900,19 +1900,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.00098
+          "value": 0.000978
         },
         {
           "group": "18-49",
-          "value": 0.186275
+          "value": 0.186399
         },
         {
           "group": "50-64",
-          "value": 0.247059
+          "value": 0.248043
         },
         {
           "group": "65+",
-          "value": 0.565686
+          "value": 0.564579
         },
         {
           "group": "Unknown",
@@ -1922,54 +1922,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.52598
+          "value": 0.52593
         },
         {
           "group": "Male",
-          "value": 0.47402
+          "value": 0.47407
         },
         {
           "group": "Unknown/undifferentiated",
           "value": 0
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.023529
+          "value": 0.023483
         },
         {
           "group": "Asian American",
-          "value": 0.015196
+          "value": 0.015166
         },
         {
           "group": "Black",
-          "value": 0.008824
+          "value": 0.008806
         },
         {
           "group": "Latino",
-          "value": 0.072059
+          "value": 0.071918
         },
         {
           "group": "Multi-race",
-          "value": 0.047549
+          "value": 0.047945
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001471
+          "value": 0.001468
         },
         {
           "group": "White",
-          "value": 0.726471
+          "value": 0.726027
         },
         {
           "group": "Other",
-          "value": 0.016667
+          "value": 0.016634
         },
         {
           "group": "Unknown",
-          "value": 0.088235
+          "value": 0.088552
         }
       ],
       "region": "modoc",
@@ -1979,19 +1979,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.00605
+          "value": 0.011243
         },
         {
           "group": "18-49",
-          "value": 0.392135
+          "value": 0.436315
         },
         {
           "group": "50-64",
-          "value": 0.306296
+          "value": 0.286961
         },
         {
           "group": "65+",
-          "value": 0.295519
+          "value": 0.265481
         },
         {
           "group": "Unknown",
@@ -2001,54 +2001,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.475515
+          "value": 0.475248
         },
         {
           "group": "Male",
-          "value": 0.524296
+          "value": 0.524585
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000189
+          "value": 0.000168
         }
       ],
       "latest_update": "2021-03-18",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.00416
+          "value": 0.004028
         },
         {
           "group": "Asian American",
-          "value": 0.011912
+          "value": 0.013257
         },
         {
           "group": "Black",
-          "value": 0.002269
+          "value": 0.002517
         },
         {
           "group": "Latino",
-          "value": 0.213651
+          "value": 0.213291
         },
         {
           "group": "Multi-race",
-          "value": 0.11401
+          "value": 0.10438
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001513
+          "value": 0.00151
         },
         {
           "group": "White",
-          "value": 0.597656
+          "value": 0.584158
         },
         {
           "group": "Other",
-          "value": 0.014937
+          "value": 0.01611
         },
         {
           "group": "Unknown",
-          "value": 0.039894
+          "value": 0.060748
         }
       ],
       "region": "mono",
@@ -2058,19 +2058,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001382
+          "value": 0.001545
         },
         {
           "group": "18-49",
-          "value": 0.349345
+          "value": 0.360899
         },
         {
           "group": "50-64",
-          "value": 0.198542
+          "value": 0.205071
         },
         {
           "group": "65+",
-          "value": 0.450731
+          "value": 0.432485
         },
         {
           "group": "Unknown",
@@ -2080,54 +2080,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.5575
+          "value": 0.555762
         },
         {
           "group": "Male",
-          "value": 0.406815
+          "value": 0.409804
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.035685
+          "value": 0.034434
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.002096
+          "value": 0.002075
         },
         {
           "group": "Asian American",
-          "value": 0.045952
+          "value": 0.045228
         },
         {
           "group": "Black",
-          "value": 0.011375
+          "value": 0.011346
         },
         {
           "group": "Latino",
-          "value": 0.338137
+          "value": 0.341781
         },
         {
           "group": "Multi-race",
-          "value": 0.123944
+          "value": 0.118833
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.005134
+          "value": 0.005109
         },
         {
           "group": "White",
-          "value": 0.294556
+          "value": 0.287823
         },
         {
           "group": "Other",
-          "value": 0.068833
+          "value": 0.069342
         },
         {
           "group": "Unknown",
-          "value": 0.109973
+          "value": 0.118461
         }
       ],
       "region": "monterey",
@@ -2137,19 +2137,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.002446
+          "value": 0.002439
         },
         {
           "group": "18-49",
-          "value": 0.329613
+          "value": 0.337448
         },
         {
           "group": "50-64",
-          "value": 0.212887
+          "value": 0.217056
         },
         {
           "group": "65+",
-          "value": 0.455055
+          "value": 0.443056
         },
         {
           "group": "Unknown",
@@ -2159,54 +2159,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.539142
+          "value": 0.537923
         },
         {
           "group": "Male",
-          "value": 0.460257
+          "value": 0.461456
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.0006
+          "value": 0.00062
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.001534
+          "value": 0.001519
         },
         {
           "group": "Asian American",
-          "value": 0.0444
+          "value": 0.043497
         },
         {
           "group": "Black",
-          "value": 0.009672
+          "value": 0.009478
         },
         {
           "group": "Latino",
-          "value": 0.169398
+          "value": 0.172747
         },
         {
           "group": "Multi-race",
-          "value": 0.077039
+          "value": 0.075055
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.003757
+          "value": 0.003701
         },
         {
           "group": "White",
-          "value": 0.436668
+          "value": 0.430968
         },
         {
           "group": "Other",
-          "value": 0.062743
+          "value": 0.06194
         },
         {
           "group": "Unknown",
-          "value": 0.194788
+          "value": 0.201095
         }
       ],
       "region": "napa",
@@ -2216,19 +2216,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.002081
+          "value": 0.002513
         },
         {
           "group": "18-49",
-          "value": 0.191641
+          "value": 0.197957
         },
         {
           "group": "50-64",
-          "value": 0.168111
+          "value": 0.172414
         },
         {
           "group": "65+",
-          "value": 0.638167
+          "value": 0.627117
         },
         {
           "group": "Unknown",
@@ -2238,54 +2238,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.571908
+          "value": 0.571211
         },
         {
           "group": "Male",
-          "value": 0.427285
+          "value": 0.427965
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000807
+          "value": 0.000824
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.007221
+          "value": 0.007127
         },
         {
           "group": "Asian American",
-          "value": 0.006201
+          "value": 0.006344
         },
         {
           "group": "Black",
-          "value": 0.002209
+          "value": 0.002225
         },
         {
           "group": "Latino",
-          "value": 0.050459
+          "value": 0.050715
         },
         {
           "group": "Multi-race",
-          "value": 0.178347
+          "value": 0.176822
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001147
+          "value": 0.001112
         },
         {
           "group": "White",
-          "value": 0.626104
+          "value": 0.62415
         },
         {
           "group": "Other",
-          "value": 0.058911
+          "value": 0.059655
         },
         {
           "group": "Unknown",
-          "value": 0.069402
+          "value": 0.071849
         }
       ],
       "region": "nevada",
@@ -2295,19 +2295,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.002093
+          "value": 0.00217
         },
         {
           "group": "18-49",
-          "value": 0.323672
+          "value": 0.327722
         },
         {
           "group": "50-64",
-          "value": 0.198016
+          "value": 0.201933
         },
         {
           "group": "65+",
-          "value": 0.476218
+          "value": 0.468175
         },
         {
           "group": "Unknown",
@@ -2317,54 +2317,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.566767
+          "value": 0.565709
         },
         {
           "group": "Male",
-          "value": 0.421915
+          "value": 0.42317
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.011318
+          "value": 0.011121
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.000959
+          "value": 0.000972
         },
         {
           "group": "Asian American",
-          "value": 0.188652
+          "value": 0.188356
         },
         {
           "group": "Black",
-          "value": 0.008416
+          "value": 0.008465
         },
         {
           "group": "Latino",
-          "value": 0.128278
+          "value": 0.128191
         },
         {
           "group": "Multi-race",
-          "value": 0.168306
+          "value": 0.165936
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.002971
+          "value": 0.002967
         },
         {
           "group": "White",
-          "value": 0.319185
+          "value": 0.318394
         },
         {
           "group": "Other",
-          "value": 0.097159
+          "value": 0.098054
         },
         {
           "group": "Unknown",
-          "value": 0.086074
+          "value": 0.088666
         }
       ],
       "region": "orange",
@@ -2374,19 +2374,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.00268
+          "value": 0.003151
         },
         {
           "group": "18-49",
-          "value": 0.260042
+          "value": 0.266035
         },
         {
           "group": "50-64",
-          "value": 0.189877
+          "value": 0.196702
         },
         {
           "group": "65+",
-          "value": 0.547401
+          "value": 0.534113
         },
         {
           "group": "Unknown",
@@ -2396,54 +2396,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.578532
+          "value": 0.57668
         },
         {
           "group": "Male",
-          "value": 0.420793
+          "value": 0.422658
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000675
+          "value": 0.000662
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.00446
+          "value": 0.004362
         },
         {
           "group": "Asian American",
-          "value": 0.054164
+          "value": 0.05392
         },
         {
           "group": "Black",
-          "value": 0.008734
+          "value": 0.008771
         },
         {
           "group": "Latino",
-          "value": 0.094655
+          "value": 0.09363
         },
         {
           "group": "Multi-race",
-          "value": 0.13631
+          "value": 0.133538
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.003922
+          "value": 0.003945
         },
         {
           "group": "White",
-          "value": 0.473969
+          "value": 0.471535
         },
         {
           "group": "Other",
-          "value": 0.079583
+          "value": 0.079532
         },
         {
           "group": "Unknown",
-          "value": 0.144203
+          "value": 0.150767
         }
       ],
       "region": "placer",
@@ -2453,19 +2453,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.000946
+          "value": 0.000916
         },
         {
           "group": "18-49",
-          "value": 0.190206
+          "value": 0.189975
         },
         {
           "group": "50-64",
-          "value": 0.166548
+          "value": 0.173953
         },
         {
           "group": "65+",
-          "value": 0.6423
+          "value": 0.635157
         },
         {
           "group": "Unknown",
@@ -2475,54 +2475,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.545067
+          "value": 0.543832
         },
         {
           "group": "Male",
-          "value": 0.454459
+          "value": 0.455711
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000473
+          "value": 0.000458
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.007807
+          "value": 0.007553
         },
         {
           "group": "Asian American",
-          "value": 0.005441
+          "value": 0.005493
         },
         {
           "group": "Black",
-          "value": 0.003075
+          "value": 0.003204
         },
         {
           "group": "Latino",
-          "value": 0.017743
+          "value": 0.018997
         },
         {
           "group": "Multi-race",
-          "value": 0.062692
+          "value": 0.063859
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.000473
+          "value": 0.000458
         },
         {
           "group": "White",
-          "value": 0.747575
+          "value": 0.745022
         },
         {
           "group": "Other",
-          "value": 0.035959
+          "value": 0.035935
         },
         {
           "group": "Unknown",
-          "value": 0.119233
+          "value": 0.119478
         }
       ],
       "region": "plumas",
@@ -2532,19 +2532,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001614
+          "value": 0.001841
         },
         {
           "group": "18-49",
-          "value": 0.292823
+          "value": 0.296628
         },
         {
           "group": "50-64",
-          "value": 0.205566
+          "value": 0.211116
         },
         {
           "group": "65+",
-          "value": 0.499998
+          "value": 0.490415
         },
         {
           "group": "Unknown",
@@ -2554,54 +2554,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.560685
+          "value": 0.559483
         },
         {
           "group": "Male",
-          "value": 0.438425
+          "value": 0.439622
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.00089
+          "value": 0.000894
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.002558
+          "value": 0.002553
         },
         {
           "group": "Asian American",
-          "value": 0.057215
+          "value": 0.057079
         },
         {
           "group": "Black",
-          "value": 0.035593
+          "value": 0.035923
         },
         {
           "group": "Latino",
-          "value": 0.234429
+          "value": 0.234892
         },
         {
           "group": "Multi-race",
-          "value": 0.150489
+          "value": 0.147339
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.002883
+          "value": 0.002933
         },
         {
           "group": "White",
-          "value": 0.334582
+          "value": 0.332683
         },
         {
           "group": "Other",
-          "value": 0.118071
+          "value": 0.119082
         },
         {
           "group": "Unknown",
-          "value": 0.064181
+          "value": 0.067516
         }
       ],
       "region": "riverside",
@@ -2611,19 +2611,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.002423
+          "value": 0.002493
         },
         {
           "group": "18-49",
-          "value": 0.345151
+          "value": 0.350611
         },
         {
           "group": "50-64",
-          "value": 0.218631
+          "value": 0.221471
         },
         {
           "group": "65+",
-          "value": 0.433795
+          "value": 0.425425
         },
         {
           "group": "Unknown",
@@ -2633,54 +2633,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.579523
+          "value": 0.578344
         },
         {
           "group": "Male",
-          "value": 0.418392
+          "value": 0.419619
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.002084
+          "value": 0.002037
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.003802
+          "value": 0.00377
         },
         {
           "group": "Asian American",
-          "value": 0.108275
+          "value": 0.108445
         },
         {
           "group": "Black",
-          "value": 0.040186
+          "value": 0.039908
         },
         {
           "group": "Latino",
-          "value": 0.082032
+          "value": 0.081829
         },
         {
           "group": "Multi-race",
-          "value": 0.102395
+          "value": 0.100302
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.009082
+          "value": 0.009353
         },
         {
           "group": "White",
-          "value": 0.320917
+          "value": 0.316833
         },
         {
           "group": "Other",
-          "value": 0.113984
+          "value": 0.112685
         },
         {
           "group": "Unknown",
-          "value": 0.219327
+          "value": 0.226876
         }
       ],
       "region": "sacramento",
@@ -3480,19 +3480,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.00149
+          "value": 0.001466
         },
         {
           "group": "18-49",
-          "value": 0.221777
+          "value": 0.222536
         },
         {
           "group": "50-64",
-          "value": 0.201135
+          "value": 0.202855
         },
         {
           "group": "65+",
-          "value": 0.575599
+          "value": 0.573143
         },
         {
           "group": "Unknown",
@@ -3502,54 +3502,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.577159
+          "value": 0.576494
         },
         {
           "group": "Male",
-          "value": 0.421919
+          "value": 0.422564
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000922
+          "value": 0.000942
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.007484
+          "value": 0.007433
         },
         {
           "group": "Asian American",
-          "value": 0.011527
+          "value": 0.011586
         },
         {
           "group": "Black",
-          "value": 0.003405
+          "value": 0.003525
         },
         {
           "group": "Latino",
-          "value": 0.030857
+          "value": 0.031651
         },
         {
           "group": "Multi-race",
-          "value": 0.223231
+          "value": 0.220582
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001277
+          "value": 0.001256
         },
         {
           "group": "White",
-          "value": 0.462883
+          "value": 0.461788
         },
         {
           "group": "Other",
-          "value": 0.12332
+          "value": 0.123604
         },
         {
           "group": "Unknown",
-          "value": 0.136017
+          "value": 0.138575
         }
       ],
       "region": "shasta",
@@ -3563,15 +3563,15 @@
         },
         {
           "group": "18-49",
-          "value": 0.179732
+          "value": 0.188257
         },
         {
           "group": "50-64",
-          "value": 0.273423
+          "value": 0.27493
         },
         {
           "group": "65+",
-          "value": 0.546845
+          "value": 0.536813
         },
         {
           "group": "Unknown",
@@ -3581,38 +3581,38 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.525813
+          "value": 0.522833
         },
         {
           "group": "Male",
-          "value": 0.473231
+          "value": 0.475303
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000956
+          "value": 0.001864
         }
       ],
       "latest_update": "2021-03-18",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.005736
+          "value": 0.005592
         },
         {
           "group": "Asian American",
-          "value": 0.007648
+          "value": 0.007456
         },
         {
           "group": "Black",
-          "value": 0.000956
+          "value": 0.000932
         },
         {
           "group": "Latino",
-          "value": 0.081262
+          "value": 0.082013
         },
         {
           "group": "Multi-race",
-          "value": 0.091778
+          "value": 0.090401
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
@@ -3620,15 +3620,15 @@
         },
         {
           "group": "White",
-          "value": 0.740918
+          "value": 0.740913
         },
         {
           "group": "Other",
-          "value": 0.031549
+          "value": 0.030755
         },
         {
           "group": "Unknown",
-          "value": 0.040153
+          "value": 0.041938
         }
       ],
       "region": "sierra",
@@ -3638,19 +3638,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.003773
+          "value": 0.00375
         },
         {
           "group": "18-49",
-          "value": 0.198607
+          "value": 0.198923
         },
         {
           "group": "50-64",
-          "value": 0.222405
+          "value": 0.222959
         },
         {
           "group": "65+",
-          "value": 0.575215
+          "value": 0.574368
         },
         {
           "group": "Unknown",
@@ -3660,54 +3660,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.555964
+          "value": 0.555716
         },
         {
           "group": "Male",
-          "value": 0.443746
+          "value": 0.443996
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.00029
+          "value": 0.000288
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.017316
+          "value": 0.017306
         },
         {
           "group": "Asian American",
-          "value": 0.008513
+          "value": 0.008461
         },
         {
           "group": "Black",
-          "value": 0.004644
+          "value": 0.004615
         },
         {
           "group": "Latino",
-          "value": 0.05311
+          "value": 0.052976
         },
         {
           "group": "Multi-race",
-          "value": 0.089194
+          "value": 0.088838
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.000484
+          "value": 0.000481
         },
         {
           "group": "White",
-          "value": 0.610719
+          "value": 0.611095
         },
         {
           "group": "Other",
-          "value": 0.043339
+          "value": 0.043265
         },
         {
           "group": "Unknown",
-          "value": 0.172681
+          "value": 0.172964
         }
       ],
       "region": "siskiyou",
@@ -3717,19 +3717,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.00234
+          "value": 0.002488
         },
         {
           "group": "18-49",
-          "value": 0.319293
+          "value": 0.321666
         },
         {
           "group": "50-64",
-          "value": 0.235217
+          "value": 0.238374
         },
         {
           "group": "65+",
-          "value": 0.44315
+          "value": 0.437472
         },
         {
           "group": "Unknown",
@@ -3739,54 +3739,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.578887
+          "value": 0.578072
         },
         {
           "group": "Male",
-          "value": 0.419171
+          "value": 0.419996
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.001942
+          "value": 0.001932
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.003147
+          "value": 0.003152
         },
         {
           "group": "Asian American",
-          "value": 0.115642
+          "value": 0.114849
         },
         {
           "group": "Black",
-          "value": 0.06882
+          "value": 0.068432
         },
         {
           "group": "Latino",
-          "value": 0.084065
+          "value": 0.085342
         },
         {
           "group": "Multi-race",
-          "value": 0.07811
+          "value": 0.077057
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.00953
+          "value": 0.009514
         },
         {
           "group": "White",
-          "value": 0.290544
+          "value": 0.287748
         },
         {
           "group": "Other",
-          "value": 0.121288
+          "value": 0.120343
         },
         {
           "group": "Unknown",
-          "value": 0.228854
+          "value": 0.233563
         }
       ],
       "region": "solano",
@@ -3796,19 +3796,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001954
+          "value": 0.002095
         },
         {
           "group": "18-49",
-          "value": 0.301044
+          "value": 0.304144
         },
         {
           "group": "50-64",
-          "value": 0.201367
+          "value": 0.204214
         },
         {
           "group": "65+",
-          "value": 0.495635
+          "value": 0.489547
         },
         {
           "group": "Unknown",
@@ -3818,54 +3818,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.576096
+          "value": 0.574811
         },
         {
           "group": "Male",
-          "value": 0.42321
+          "value": 0.424512
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000694
+          "value": 0.000677
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.005542
+          "value": 0.005466
         },
         {
           "group": "Asian American",
-          "value": 0.020742
+          "value": 0.020574
         },
         {
           "group": "Black",
-          "value": 0.006756
+          "value": 0.00676
         },
         {
           "group": "Latino",
-          "value": 0.132517
+          "value": 0.133512
         },
         {
           "group": "Multi-race",
-          "value": 0.12348
+          "value": 0.121325
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.002108
+          "value": 0.002102
         },
         {
           "group": "White",
-          "value": 0.460379
+          "value": 0.456799
         },
         {
           "group": "Other",
-          "value": 0.089225
+          "value": 0.088472
         },
         {
           "group": "Unknown",
-          "value": 0.159249
+          "value": 0.164991
         }
       ],
       "region": "sonoma",
@@ -3875,76 +3875,76 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.003969
+          "value": 0.003947
         },
         {
           "group": "18-49",
-          "value": 0.309158
+          "value": 0.314373
         },
         {
           "group": "50-64",
-          "value": 0.235915
+          "value": 0.241235
         },
         {
           "group": "65+",
-          "value": 0.450902
+          "value": 0.44039
         },
         {
           "group": "Unknown",
-          "value": 5.7e-05
+          "value": 5.5e-05
         }
       ],
       "gender": [
         {
           "group": "Female",
-          "value": 0.5704
+          "value": 0.56907
         },
         {
           "group": "Male",
-          "value": 0.425842
+          "value": 0.42721
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.003758
+          "value": 0.00372
         }
       ],
       "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.004449
+          "value": 0.00448
         },
         {
           "group": "Asian American",
-          "value": 0.049948
+          "value": 0.049472
         },
         {
           "group": "Black",
-          "value": 0.015706
+          "value": 0.01571
         },
         {
           "group": "Latino",
-          "value": 0.220965
+          "value": 0.225689
         },
         {
           "group": "Multi-race",
-          "value": 0.009915
+          "value": 0.009578
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.006393
+          "value": 0.006344
         },
         {
           "group": "White",
-          "value": 0.36288
+          "value": 0.359851
         },
         {
           "group": "Other",
-          "value": 0.090039
+          "value": 0.089467
         },
         {
           "group": "Unknown",
-          "value": 0.239705
+          "value": 0.23941
         }
       ],
       "region": "stanislaus",
@@ -3954,19 +3954,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001536
+          "value": 0.001549
         },
         {
           "group": "18-49",
-          "value": 0.289809
+          "value": 0.296746
         },
         {
           "group": "50-64",
-          "value": 0.223883
+          "value": 0.231723
         },
         {
           "group": "65+",
-          "value": 0.484772
+          "value": 0.469982
         },
         {
           "group": "Unknown",
@@ -3976,54 +3976,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.566975
+          "value": 0.564249
         },
         {
           "group": "Male",
-          "value": 0.427497
+          "value": 0.430474
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.005528
+          "value": 0.005277
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.006347
+          "value": 0.006101
         },
         {
           "group": "Asian American",
-          "value": 0.133644
+          "value": 0.134308
         },
         {
           "group": "Black",
-          "value": 0.010288
+          "value": 0.010071
         },
         {
           "group": "Latino",
-          "value": 0.159543
+          "value": 0.163019
         },
         {
           "group": "Multi-race",
-          "value": 0.136305
+          "value": 0.131839
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.002303
+          "value": 0.002421
         },
         {
           "group": "White",
-          "value": 0.411373
+          "value": 0.403941
         },
         {
           "group": "Other",
-          "value": 0.071505
+          "value": 0.072625
         },
         {
           "group": "Unknown",
-          "value": 0.06869
+          "value": 0.075675
         }
       ],
       "region": "sutter",
@@ -4033,19 +4033,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.000353
+          "value": 0.000342
         },
         {
           "group": "18-49",
-          "value": 0.239407
+          "value": 0.242448
         },
         {
           "group": "50-64",
-          "value": 0.229049
+          "value": 0.230366
         },
         {
           "group": "65+",
-          "value": 0.531191
+          "value": 0.526844
         },
         {
           "group": "Unknown",
@@ -4055,54 +4055,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.563324
+          "value": 0.562179
         },
         {
           "group": "Male",
-          "value": 0.436323
+          "value": 0.437479
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000353
+          "value": 0.000342
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.011417
+          "value": 0.011057
         },
         {
           "group": "Asian American",
-          "value": 0.006121
+          "value": 0.006383
         },
         {
           "group": "Black",
-          "value": 0.002001
+          "value": 0.002052
         },
         {
           "group": "Latino",
-          "value": 0.104049
+          "value": 0.104411
         },
         {
           "group": "Multi-race",
-          "value": 0.09322
+          "value": 0.091645
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001295
+          "value": 0.001254
         },
         {
           "group": "White",
-          "value": 0.508828
+          "value": 0.503933
         },
         {
           "group": "Other",
-          "value": 0.096987
+          "value": 0.097344
         },
         {
           "group": "Unknown",
-          "value": 0.176083
+          "value": 0.181922
         }
       ],
       "region": "tehama",
@@ -4112,19 +4112,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.000452
+          "value": 0.000428
         },
         {
           "group": "18-49",
-          "value": 0.178039
+          "value": 0.185122
         },
         {
           "group": "50-64",
-          "value": 0.199729
+          "value": 0.204361
         },
         {
           "group": "65+",
-          "value": 0.62178
+          "value": 0.61009
         },
         {
           "group": "Unknown",
@@ -4134,54 +4134,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.507456
+          "value": 0.506199
         },
         {
           "group": "Male",
-          "value": 0.490737
+          "value": 0.492091
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.001808
+          "value": 0.00171
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.011749
+          "value": 0.011971
         },
         {
           "group": "Asian American",
-          "value": 0.007682
+          "value": 0.008551
         },
         {
           "group": "Black",
-          "value": 0.002259
+          "value": 0.002138
         },
         {
           "group": "Latino",
-          "value": 0.023498
+          "value": 0.023087
         },
         {
           "group": "Multi-race",
-          "value": 0.10122
+          "value": 0.09705
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.002711
+          "value": 0.002565
         },
         {
           "group": "White",
-          "value": 0.656575
+          "value": 0.64472
         },
         {
           "group": "Other",
-          "value": 0.027564
+          "value": 0.0295
         },
         {
           "group": "Unknown",
-          "value": 0.166742
+          "value": 0.180419
         }
       ],
       "region": "trinity",
@@ -4191,19 +4191,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.003321
+          "value": 0.003532
         },
         {
           "group": "18-49",
-          "value": 0.39771
+          "value": 0.399878
         },
         {
           "group": "50-64",
-          "value": 0.241687
+          "value": 0.24491
         },
         {
           "group": "65+",
-          "value": 0.357282
+          "value": 0.351679
         },
         {
           "group": "Unknown",
@@ -4213,54 +4213,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.554013
+          "value": 0.553029
         },
         {
           "group": "Male",
-          "value": 0.445453
+          "value": 0.446429
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000534
+          "value": 0.000542
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.002461
+          "value": 0.002471
         },
         {
           "group": "Asian American",
-          "value": 0.026728
+          "value": 0.026554
         },
         {
           "group": "Black",
-          "value": 0.006467
+          "value": 0.006534
         },
         {
           "group": "Latino",
-          "value": 0.436571
+          "value": 0.436047
         },
         {
           "group": "Multi-race",
-          "value": 0.068421
+          "value": 0.067056
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.001695
+          "value": 0.001738
         },
         {
           "group": "White",
-          "value": 0.308297
+          "value": 0.307396
         },
         {
           "group": "Other",
-          "value": 0.057914
+          "value": 0.058186
         },
         {
           "group": "Unknown",
-          "value": 0.091445
+          "value": 0.094017
         }
       ],
       "region": "tulare",
@@ -4270,19 +4270,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001159
+          "value": 0.001207
         },
         {
           "group": "18-49",
-          "value": 0.175304
+          "value": 0.176108
         },
         {
           "group": "50-64",
-          "value": 0.218567
+          "value": 0.222469
         },
         {
           "group": "65+",
-          "value": 0.60497
+          "value": 0.600216
         },
         {
           "group": "Unknown",
@@ -4292,54 +4292,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.550763
+          "value": 0.55068
         },
         {
           "group": "Male",
-          "value": 0.448078
+          "value": 0.448177
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.001159
+          "value": 0.001143
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.004249
+          "value": 0.004319
         },
         {
           "group": "Asian American",
-          "value": 0.012811
+          "value": 0.012765
         },
         {
           "group": "Black",
-          "value": 0.00264
+          "value": 0.002731
         },
         {
           "group": "Latino",
-          "value": 0.042683
+          "value": 0.042995
         },
         {
           "group": "Multi-race",
-          "value": 0.012876
+          "value": 0.012765
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.004249
+          "value": 0.004255
         },
         {
           "group": "White",
-          "value": 0.794631
+          "value": 0.793535
         },
         {
           "group": "Other",
-          "value": 0.063027
+          "value": 0.063254
         },
         {
           "group": "Unknown",
-          "value": 0.062834
+          "value": 0.063381
         }
       ],
       "region": "tuolumne",
@@ -4349,19 +4349,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.002945
+          "value": 0.003222
         },
         {
           "group": "18-49",
-          "value": 0.323574
+          "value": 0.338162
         },
         {
           "group": "50-64",
-          "value": 0.200548
+          "value": 0.208064
         },
         {
           "group": "65+",
-          "value": 0.472933
+          "value": 0.450552
         },
         {
           "group": "Unknown",
@@ -4371,54 +4371,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.571317
+          "value": 0.565891
         },
         {
           "group": "Male",
-          "value": 0.428346
+          "value": 0.433736
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.000337
+          "value": 0.000373
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.001455
+          "value": 0.001552
         },
         {
           "group": "Asian American",
-          "value": 0.053348
+          "value": 0.052151
         },
         {
           "group": "Black",
-          "value": 0.008722
+          "value": 0.008661
         },
         {
           "group": "Latino",
-          "value": 0.269391
+          "value": 0.278128
         },
         {
           "group": "Multi-race",
-          "value": 0.188544
+          "value": 0.178504
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.002593
+          "value": 0.00259
         },
         {
           "group": "White",
-          "value": 0.343402
+          "value": 0.338472
         },
         {
           "group": "Other",
-          "value": 0.099473
+          "value": 0.100066
         },
         {
           "group": "Unknown",
-          "value": 0.033071
+          "value": 0.039877
         }
       ],
       "region": "ventura",
@@ -4428,19 +4428,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.003575
+          "value": 0.003752
         },
         {
           "group": "18-49",
-          "value": 0.407126
+          "value": 0.411002
         },
         {
           "group": "50-64",
-          "value": 0.201143
+          "value": 0.203692
         },
         {
           "group": "65+",
-          "value": 0.388156
+          "value": 0.381554
         },
         {
           "group": "Unknown",
@@ -4450,54 +4450,54 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.556713
+          "value": 0.556568
         },
         {
           "group": "Male",
-          "value": 0.400541
+          "value": 0.401538
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.042746
+          "value": 0.041894
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.004259
+          "value": 0.004221
         },
         {
           "group": "Asian American",
-          "value": 0.063615
+          "value": 0.063721
         },
         {
           "group": "Black",
-          "value": 0.010246
+          "value": 0.010151
         },
         {
           "group": "Latino",
-          "value": 0.127418
+          "value": 0.127977
         },
         {
           "group": "Multi-race",
-          "value": 0.082807
+          "value": 0.081795
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.003404
+          "value": 0.003417
         },
         {
           "group": "White",
-          "value": 0.32514
+          "value": 0.322808
         },
         {
           "group": "Other",
-          "value": 0.089427
+          "value": 0.089819
         },
         {
           "group": "Unknown",
-          "value": 0.293683
+          "value": 0.29609
         }
       ],
       "region": "yolo",
@@ -4507,19 +4507,19 @@
       "age": [
         {
           "group": "0-17",
-          "value": 0.001408
+          "value": 0.001429
         },
         {
           "group": "18-49",
-          "value": 0.265795
+          "value": 0.271393
         },
         {
           "group": "50-64",
-          "value": 0.208451
+          "value": 0.215456
         },
         {
           "group": "65+",
-          "value": 0.524346
+          "value": 0.511721
         },
         {
           "group": "Unknown",
@@ -4529,83 +4529,83 @@
       "gender": [
         {
           "group": "Female",
-          "value": 0.581087
+          "value": 0.577282
         },
         {
           "group": "Male",
-          "value": 0.415694
+          "value": 0.419668
         },
         {
           "group": "Unknown/undifferentiated",
-          "value": 0.003219
+          "value": 0.003049
         }
       ],
-      "latest_update": "2021-03-18",
+      "latest_update": "2021-03-19",
       "race_ethnicity": [
         {
           "group": "American Indian or Alaska Native (AI/AN)",
-          "value": 0.012475
+          "value": 0.012197
         },
         {
           "group": "Asian American",
-          "value": 0.042656
+          "value": 0.043072
         },
         {
           "group": "Black",
-          "value": 0.020121
+          "value": 0.01963
         },
         {
           "group": "Latino",
-          "value": 0.171831
+          "value": 0.171241
         },
         {
           "group": "Multi-race",
-          "value": 0.107847
+          "value": 0.104727
         },
         {
           "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-          "value": 0.003018
+          "value": 0.002859
         },
         {
           "group": "White",
-          "value": 0.510262
+          "value": 0.504574
         },
         {
           "group": "Other",
-          "value": 0.04497
+          "value": 0.046026
         },
         {
           "group": "Unknown",
-          "value": 0.086821
+          "value": 0.095674
         }
       ],
       "region": "yuba",
       "total_administered": 12429
     }
   },
-  "date": "2021-03-20",
+  "date": "2021-03-21",
   "state": {
     "administered": 11785750,
     "age": [
       {
         "group": "0-17",
-        "value": 0.002453
+        "value": 0.002583
       },
       {
         "group": "18-49",
-        "value": 0.344376
+        "value": 0.349118
       },
       {
         "group": "50-64",
-        "value": 0.20858
+        "value": 0.212377
       },
       {
         "group": "65+",
-        "value": 0.44459
+        "value": 0.435921
       },
       {
         "group": "Unknown",
-        "value": 5.8e-05
+        "value": 5.6e-05
       }
     ],
     "cdc_ltcf_delivered": 2182300,
@@ -4614,54 +4614,54 @@
     "gender": [
       {
         "group": "Female",
-        "value": 0.567971
+        "value": 0.566547
       },
       {
         "group": "Male",
-        "value": 0.427976
+        "value": 0.429414
       },
       {
         "group": "Unknown/undifferentiated",
-        "value": 0.004054
+        "value": 0.00404
       }
     ],
-    "latest_update": "2021-03-19",
+    "latest_update": "2021-03-20",
     "race_ethnicity": [
       {
         "group": "American Indian or Alaska Native (AI/AN)",
-        "value": 0.002831
+        "value": 0.00283
       },
       {
         "group": "Asian American",
-        "value": 0.120221
+        "value": 0.119537
       },
       {
         "group": "Black",
-        "value": 0.029938
+        "value": 0.029954
       },
       {
         "group": "Latino",
-        "value": 0.187783
+        "value": 0.189251
       },
       {
         "group": "Multi-race",
-        "value": 0.127276
+        "value": 0.124886
       },
       {
         "group": "Native Hawaiian or Other Pacific Islander (NHPI)",
-        "value": 0.004024
+        "value": 0.00403
       },
       {
         "group": "White",
-        "value": 0.310077
+        "value": 0.308141
       },
       {
         "group": "Other",
-        "value": 0.106367
+        "value": 0.106742
       },
       {
         "group": "Unknown",
-        "value": 0.111484
+        "value": 0.114631
       }
     ],
     "region": "california",
