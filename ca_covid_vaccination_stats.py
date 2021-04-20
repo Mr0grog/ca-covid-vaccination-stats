@@ -214,7 +214,7 @@ def get_stats_from_tableau():
     Get the top-line stats (administered/shipped/delivered) come from a Tableau
     dashboard.
     """
-    data = get_tableau_data('COVID-19VaccineDashboardPublic', 'Vaccine')
+    data = get_tableau_data('COVID-19VaccineDashboardPublicv2', 'Vaccine')
     values_by_type = get_tableau_values(data)
 
     charts = (data[1]
@@ -232,29 +232,34 @@ def get_stats_from_tableau():
     all_tableau_data = {
         'state': {
             'administered': parse_tableau_value_chart(
-                charts['Total Doses Admin'],
+                charts['Administered'],
                 values_by_type,
                 'SUM(Dose Administered)'
             ),
+            'administered_per_day_avg': parse_tableau_value_chart(
+                charts['Administered'],
+                values_by_type,
+                'SUM(Daily Avg)'
+            ),
+            'fully_vaccinated': parse_tableau_value_chart(
+                charts['Administered'],
+                values_by_type,
+                'SUM(Fully Vaccinated)'
+            ),
+            'partially_vaccinated': parse_tableau_value_chart(
+                charts['Administered'],
+                values_by_type,
+                'SUM(Partially Vaccinated)'
+            ),
             'delivered': parse_tableau_value_chart(
-                charts['Total Doses Delivered'],
+                charts['Delivered'],
                 values_by_type,
                 'SUM(Doses Delivered)'
-            ),
-            'shipped': parse_tableau_value_chart(
-                charts['Total Doses Shipped'],
-                values_by_type,
-                'SUM(Doses Shipped)'
             ),
             'cdc_ltcf_delivered': parse_tableau_value_chart(
-                charts['Total Doses Delivered CDC'],
+                charts['Delivered CDC'],
                 values_by_type,
                 'SUM(Doses Delivered)'
-            ),
-            'cdc_ltcf_shipped': parse_tableau_value_chart(
-                charts['Total Doses Shipped CDC'],
-                values_by_type,
-                'SUM(Doses Shipped)'
             ),
         },
         'counties': shots_by_county
