@@ -77,7 +77,7 @@
         }
       ],
       "region": "alameda",
-      "total_administered": 1376301
+      "total_administered": 1395663
     },
     "alpine": {
       "age": [
@@ -156,7 +156,7 @@
         }
       ],
       "region": "alpine",
-      "total_administered": 1391
+      "total_administered": 1392
     },
     "amador": {
       "age": [
@@ -235,7 +235,7 @@
         }
       ],
       "region": "amador",
-      "total_administered": 26231
+      "total_administered": 26292
     },
     "butte": {
       "age": [
@@ -314,7 +314,7 @@
         }
       ],
       "region": "butte",
-      "total_administered": 132055
+      "total_administered": 132443
     },
     "calaveras": {
       "age": [
@@ -393,7 +393,7 @@
         }
       ],
       "region": "calaveras",
-      "total_administered": 28270
+      "total_administered": 28488
     },
     "colusa": {
       "age": [
@@ -472,7 +472,7 @@
         }
       ],
       "region": "colusa",
-      "total_administered": 11421
+      "total_administered": 11467
     },
     "contra_costa": {
       "age": [
@@ -551,7 +551,7 @@
         }
       ],
       "region": "contra_costa",
-      "total_administered": 1006682
+      "total_administered": 1019064
     },
     "del_norte": {
       "age": [
@@ -630,7 +630,7 @@
         }
       ],
       "region": "del_norte",
-      "total_administered": 13597
+      "total_administered": 13646
     },
     "el_dorado": {
       "age": [
@@ -709,7 +709,7 @@
         }
       ],
       "region": "el_dorado",
-      "total_administered": 124741
+      "total_administered": 125587
     },
     "fresno": {
       "age": [
@@ -788,7 +788,7 @@
         }
       ],
       "region": "fresno",
-      "total_administered": 596968
+      "total_administered": 601870
     },
     "glenn": {
       "age": [
@@ -867,7 +867,7 @@
         }
       ],
       "region": "glenn",
-      "total_administered": 15356
+      "total_administered": 15525
     },
     "humboldt": {
       "age": [
@@ -946,7 +946,7 @@
         }
       ],
       "region": "humboldt",
-      "total_administered": 90425
+      "total_administered": 91087
     },
     "imperial": {
       "age": [
@@ -1025,7 +1025,7 @@
         }
       ],
       "region": "imperial",
-      "total_administered": 100784
+      "total_administered": 101457
     },
     "inyo": {
       "age": [
@@ -1104,7 +1104,7 @@
         }
       ],
       "region": "inyo",
-      "total_administered": 12660
+      "total_administered": 13051
     },
     "kern": {
       "age": [
@@ -1183,7 +1183,7 @@
         }
       ],
       "region": "kern",
-      "total_administered": 436276
+      "total_administered": 440730
     },
     "kings": {
       "age": [
@@ -1262,7 +1262,7 @@
         }
       ],
       "region": "kings",
-      "total_administered": 58559
+      "total_administered": 58943
     },
     "lake": {
       "age": [
@@ -1341,7 +1341,7 @@
         }
       ],
       "region": "lake",
-      "total_administered": 38642
+      "total_administered": 38716
     },
     "lassen": {
       "age": [
@@ -1420,7 +1420,7 @@
         }
       ],
       "region": "lassen",
-      "total_administered": 10531
+      "total_administered": 10547
     },
     "los_angeles": {
       "age": [
@@ -1499,7 +1499,7 @@
         }
       ],
       "region": "los_angeles",
-      "total_administered": 7003153
+      "total_administered": 7101235
     },
     "madera": {
       "age": [
@@ -1578,7 +1578,7 @@
         }
       ],
       "region": "madera",
-      "total_administered": 84387
+      "total_administered": 85167
     },
     "marin": {
       "age": [
@@ -1657,7 +1657,7 @@
         }
       ],
       "region": "marin",
-      "total_administered": 281194
+      "total_administered": 283038
     },
     "mariposa": {
       "age": [
@@ -1736,7 +1736,7 @@
         }
       ],
       "region": "mariposa",
-      "total_administered": 7815
+      "total_administered": 7843
     },
     "mendocino": {
       "age": [
@@ -1815,7 +1815,7 @@
         }
       ],
       "region": "mendocino",
-      "total_administered": 67406
+      "total_administered": 67485
     },
     "merced": {
       "age": [
@@ -1894,7 +1894,7 @@
         }
       ],
       "region": "merced",
-      "total_administered": 126069
+      "total_administered": 127092
     },
     "modoc": {
       "age": [
@@ -1973,7 +1973,7 @@
         }
       ],
       "region": "modoc",
-      "total_administered": 4479
+      "total_administered": 4481
     },
     "mono": {
       "age": [
@@ -2052,7 +2052,7 @@
         }
       ],
       "region": "mono",
-      "total_administered": 13750
+      "total_administered": 13800
     },
     "monterey": {
       "age": [
@@ -2131,7 +2131,7 @@
         }
       ],
       "region": "monterey",
-      "total_administered": 295623
+      "total_administered": 299050
     },
     "napa": {
       "age": [
@@ -2210,7 +2210,7 @@
         }
       ],
       "region": "napa",
-      "total_administered": 127278
+      "total_administered": 128148
     },
     "nevada": {
       "age": [
@@ -2289,7 +2289,7 @@
         }
       ],
       "region": "nevada",
-      "total_administered": 67280
+      "total_administered": 67833
     },
     "orange": {
       "age": [
@@ -2368,7 +2368,7 @@
         }
       ],
       "region": "orange",
-      "total_administered": 2323740
+      "total_administered": 2358977
     },
     "placer": {
       "age": [
@@ -2447,7 +2447,7 @@
         }
       ],
       "region": "placer",
-      "total_administered": 284940
+      "total_administered": 287093
     },
     "plumas": {
       "age": [
@@ -2526,7 +2526,7 @@
         }
       ],
       "region": "plumas",
-      "total_administered": 12340
+      "total_administered": 12515
     },
     "riverside": {
       "age": [
@@ -2605,7 +2605,7 @@
         }
       ],
       "region": "riverside",
-      "total_administered": 1386228
+      "total_administered": 1400226
     },
     "sacramento": {
       "age": [
@@ -2684,7 +2684,7 @@
         }
       ],
       "region": "sacramento",
-      "total_administered": 962040
+      "total_administered": 972188
     },
     "san_benito": {
       "age": [
@@ -2763,7 +2763,7 @@
         }
       ],
       "region": "san_benito",
-      "total_administered": 38508
+      "total_administered": 38969
     },
     "san_bernardino": {
       "age": [
@@ -2842,7 +2842,7 @@
         }
       ],
       "region": "san_bernardino",
-      "total_administered": 1102838
+      "total_administered": 1116003
     },
     "san_diego": {
       "age": [
@@ -2921,7 +2921,7 @@
         }
       ],
       "region": "san_diego",
-      "total_administered": 2490177
+      "total_administered": 2530639
     },
     "san_francisco": {
       "age": [
@@ -3000,7 +3000,7 @@
         }
       ],
       "region": "san_francisco",
-      "total_administered": 826215
+      "total_administered": 834599
     },
     "san_joaquin": {
       "age": [
@@ -3079,7 +3079,7 @@
         }
       ],
       "region": "san_joaquin",
-      "total_administered": 406644
+      "total_administered": 412376
     },
     "san_luis_obispo": {
       "age": [
@@ -3158,7 +3158,7 @@
         }
       ],
       "region": "san_luis_obispo",
-      "total_administered": 201711
+      "total_administered": 203014
     },
     "san_mateo": {
       "age": [
@@ -3237,7 +3237,7 @@
         }
       ],
       "region": "san_mateo",
-      "total_administered": 676288
+      "total_administered": 686867
     },
     "santa_barbara": {
       "age": [
@@ -3316,7 +3316,7 @@
         }
       ],
       "region": "santa_barbara",
-      "total_administered": 325666
+      "total_administered": 328377
     },
     "santa_clara": {
       "age": [
@@ -3395,7 +3395,7 @@
         }
       ],
       "region": "santa_clara",
-      "total_administered": 1542446
+      "total_administered": 1568404
     },
     "santa_cruz": {
       "age": [
@@ -3474,7 +3474,7 @@
         }
       ],
       "region": "santa_cruz",
-      "total_administered": 232595
+      "total_administered": 235093
     },
     "shasta": {
       "age": [
@@ -3553,7 +3553,7 @@
         }
       ],
       "region": "shasta",
-      "total_administered": 76028
+      "total_administered": 76623
     },
     "sierra": {
       "age": [
@@ -3632,7 +3632,7 @@
         }
       ],
       "region": "sierra",
-      "total_administered": 2525
+      "total_administered": 2530
     },
     "siskiyou": {
       "age": [
@@ -3711,7 +3711,7 @@
         }
       ],
       "region": "siskiyou",
-      "total_administered": 24709
+      "total_administered": 24776
     },
     "solano": {
       "age": [
@@ -3790,7 +3790,7 @@
         }
       ],
       "region": "solano",
-      "total_administered": 291216
+      "total_administered": 293953
     },
     "sonoma": {
       "age": [
@@ -3869,7 +3869,7 @@
         }
       ],
       "region": "sonoma",
-      "total_administered": 429158
+      "total_administered": 432508
     },
     "stanislaus": {
       "age": [
@@ -3948,7 +3948,7 @@
         }
       ],
       "region": "stanislaus",
-      "total_administered": 309764
+      "total_administered": 313552
     },
     "sutter": {
       "age": [
@@ -4027,7 +4027,7 @@
         }
       ],
       "region": "sutter",
-      "total_administered": 55988
+      "total_administered": 56375
     },
     "tehama": {
       "age": [
@@ -4106,7 +4106,7 @@
         }
       ],
       "region": "tehama",
-      "total_administered": 25139
+      "total_administered": 25248
     },
     "trinity": {
       "age": [
@@ -4185,7 +4185,7 @@
         }
       ],
       "region": "trinity",
-      "total_administered": 5807
+      "total_administered": 5819
     },
     "tulare": {
       "age": [
@@ -4264,7 +4264,7 @@
         }
       ],
       "region": "tulare",
-      "total_administered": 247750
+      "total_administered": 249509
     },
     "tuolumne": {
       "age": [
@@ -4343,7 +4343,7 @@
         }
       ],
       "region": "tuolumne",
-      "total_administered": 36523
+      "total_administered": 36670
     },
     "ventura": {
       "age": [
@@ -4422,7 +4422,7 @@
         }
       ],
       "region": "ventura",
-      "total_administered": 627733
+      "total_administered": 638673
     },
     "yolo": {
       "age": [
@@ -4501,7 +4501,7 @@
         }
       ],
       "region": "yolo",
-      "total_administered": 165608
+      "total_administered": 166608
     },
     "yuba": {
       "age": [
@@ -4580,13 +4580,13 @@
         }
       ],
       "region": "yuba",
-      "total_administered": 30927
+      "total_administered": 31158
     }
   },
-  "date": "2021-04-25",
+  "date": "2021-04-26",
   "state": {
-    "administered": 27843725,
-    "administered_per_day_avg": 364236,
+    "administered": 28200566,
+    "administered_per_day_avg": 355727,
     "age": [
       {
         "group": "0-17",
@@ -4609,9 +4609,9 @@
         "value": 1.9e-05
       }
     ],
-    "cdc_ltcf_delivered": 7234350,
-    "delivered": 35052860,
-    "fully_vaccinated": 11343236,
+    "cdc_ltcf_delivered": 7240300,
+    "delivered": 35058910,
+    "fully_vaccinated": 11524805,
     "gender": [
       {
         "group": "Female",
@@ -4627,7 +4627,7 @@
       }
     ],
     "latest_update": "2021-04-20",
-    "partially_vaccinated": 6459656,
+    "partially_vaccinated": 6460293,
     "race_ethnicity": [
       {
         "group": "American Indian or Alaska Native (AI/AN)",
