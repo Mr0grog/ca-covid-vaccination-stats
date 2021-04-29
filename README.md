@@ -1,11 +1,14 @@
+⚠️ **This project is deprecated!** ⚠️ Since I wrote this scraper, the State of California has started publishing actual machine-readable data at: https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data. There’s no reason for anyone to continue to use the data this scraper produces.
+
+
 # CA COVID Vaccination Stats
 
 This project scrapes and stores a running timeseries of state & county level COVID-19 vaccination statistics in California from https://covid19.ca.gov/vaccines/.
 
 The State of California currently publishes more detailed statistics on a county level than most county health agencies are publishing, but there are two big caveats:
 
-1. This data is not [yet?] in the state’s data portal or Snowflake, so it has to be scraped.
-2. The data is only provided as a point-in-time snapshot of the numbers, so you can’t evaluate historical trends.
+1. ~This data is not [yet?] in the state’s data portal or Snowflake, so it has to be scraped.~ *(Update: this is now available in state data portal at https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data)*
+2. ~The data is only provided as a point-in-time snapshot of the numbers, so you can’t evaluate historical trends.~ *(Update: the new state data portal resource includes historical data.)*
 
 This project aims to overcome both those barriers by turning the CA state website’s content into machine readable data and updating it on a daily basis to build a timeseries for the state and each county.
 
